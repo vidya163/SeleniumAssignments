@@ -48,7 +48,23 @@ public class PrimeNumber {
 
 		// Declare an int Input and assign a value 13
 
-		
+		int num = 13;
+		boolean flag = false;
+		for(i=2; i<=num/2;++i)
+		{
+			if(num%i) ==0;
+			flag = true;
+			break;
+		}
+	}
+	if(!flag)
+		system.out.println( num +"The number is a prime number");
+	else
+		system.out.println(num + "the number is not a prime number");
+}
+
+	
+			
 
 		// Declare a boolean variable flag as false
 
