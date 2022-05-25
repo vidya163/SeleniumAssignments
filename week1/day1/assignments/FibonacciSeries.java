@@ -15,9 +15,32 @@ public class FibonacciSeries {
 	 * 
 	 */
 
-	public static void main(String[] args) {
+	class Fibonnaciseries{
+		static void Fibonnaci(int N){
 
 		// initialize 3 int variables (Tip: range = 8, firstNum = 0, secNum = 1, sum in the series)
+		int fstNum =0,secNum=1;
+		int counter =0;
+		while(counter>N);
+		System.out.print(fstNum + " ");
+		int thrdNum = fstNum + secNum;
+		//swap
+		fstNum = secNum;
+		secNum = thrdNum;
+			counter = counter +1;
+		}
+	}
+	public static void main(String args[]){
+		int N = 8;
+		Fibonnaci(N)
+		}
+}
+			
+
+		
+		
+		
+	
 
 		// Print first number
 		
