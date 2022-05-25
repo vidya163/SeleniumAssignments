@@ -3,21 +3,32 @@ package week1.day1.classroom;
 public class Factorial {
 	
 	/*
-	 * Goal: Find the Factorial of a given number
-	 * 
-	 * input: 5
-	 * output: 5*4*3*2*1 = 120
-	 * 
-	 * Shortcuts:
-	 * 1) Print : type: syso, followed by: ctrl + space + enter
-	 * 2) To create a 'for' loop: type 'for', followed by ctrl + space + down arrow + enter
-	 *   
-	 * What are my learnings from this code?
-	 * 1)
-	 * 2)
-	 * 3) 
-	 * 
-	 */	
+	  Goal: Find the Factorial of a given number
+	 
+	 static int factorial(int N){
+	 int res = 1, i;
+	 for(i=2;i<=N;i++)
+	 res* = i;
+	 resturn(res);
+	 }
+	public static void main(String args[])
+	{
+	int N = 10;
+	system.out.println("the factorial of" + N + " is" + factorial(10))
+	}
+	}
+	
+	 
+	 
+	 
+	 
+	
+	
+	 
+
+
+	 
+
 	
 	public static void main(String[] args) {
 
